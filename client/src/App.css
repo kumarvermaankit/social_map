@@ -1,0 +1,241 @@
+.card {
+  width: 320px;
+
+  height: auto;
+  
+  
+  /* justify-content: space-around; */
+}
+
+
+
+.card3 {
+  margin-top: 5px;
+  width: 320px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pintype {
+  position: absolute;
+  top: 22px;
+}
+.pintypelabel {
+  position: relative;
+  bottom: 15px;
+}
+
+.star {
+  color: gold;
+}
+
+label {
+  max-width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+.desc {
+  font-size: 14px;
+}
+.username {
+  font-size: 13px;
+}
+.date {
+  font-size: 12px;
+}
+
+input {
+  border: none;
+  border-bottom: 0.5px solid;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(134, 133, 133);
+}
+
+.submitButton {
+  border: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: tomato;
+}
+
+.button {
+  border: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.logout {
+  background-color: tomato;
+}
+.login {
+  background-color: teal;
+}
+.register {
+  background-color: slateblue;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.messagepara1 {
+  background-color: #125d98;
+
+  position: relative;
+  left: 190px;
+  width: 125px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+
+  font-size: 12px;
+}
+
+.messagepara2 {
+  background-color: #3c8dad;
+
+  width: 125px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.popup {
+  background-color: #dbe6fd;
+}
+
+.card2 {
+  margin: 5px;
+  height: 250px;
+  padding: 20px;
+  width: 350px;
+  padding-top: 0px;
+  height: 350px;
+  cursor: default;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  /* background-color: #0a81ab; */
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
+}
+
+.mapboxgl-popup-content {
+  background-color: #dbe6fd !important;
+}
+
+.closebtn {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 1px;
+  top: 25px;
+  z-index: 100;
+}
+
+.chatusername {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.headerdiv {
+  width: 100%;
+  /* background-color: white; */
+  display: flex;
+  /* border-bottom: solid 2px rgb(146, 146, 173); */
+}
+
+.line {
+  position: relative;
+  right: 20px;
+  bottom: 380px;
+  background: rgb(146, 146, 173);
+  height: 2px;
+  width: 400px;
+}
+
+.mainchatdiv {
+  background-color: #dbe6fd;
+  z-index: 1000;
+}
+
+#msgbox {
+  background-color: #dbe6fd;
+}
+
+.react-emoji {
+  position: relative;
+  right: 30px;
+}
+
+.react-input-emoji--button {
+  visibility: hidden;
+}
+
+.send_btn {
+  background: transparent;
+  border: none;
+}
+.chatbtn {
+  position: relative;
+  left: 265px;
+  bottom: 35px;
+}
+
+/* .writingoptions{
+  margin-left: 50px;
+} */
+
+.react-emoji {
+  width: 350px;
+  position: relative;
+  top: 60px;
+}
+.chatbtn2 {
+  position: relative;
+  left: 290px;
+  top: 20px;
+}
+.emoji-picker-react {
+  top: 40px;
+}
+
+.bio {
+  width: 250px;
+  font-size: 12px;
+}
+.profile_img {
+  width: 60px;
+  height: 60px;
+}
+.upload_btn {
+  width: 60px;
+  height: 30px;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+}
+.setprofile {
+  width: 30px;
+  height: 20px;
+}
+.labelimage {
+  position: relative;
+  left: 65px;
+  bottom: 25px;
+}
